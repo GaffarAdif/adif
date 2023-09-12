@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+      box-sizing: border-box;
+}
+
+/* ----------------------
+    reusesable code 
+----------------------- */
+html{
+    font-size: 10px;
+}
+
+:root{
+    --main-bg:#FFFFFF;
+    --buttonbg-color:#FF6464;
+    --ah-bg-color:#EDF7FA;
+    --text-color:#21243D;
+    --white:#FFFFFF;
+    --black:#000000;
+}
+
+h1,h2,h3,p{color: var(--text-color);}
+
+
+.c-btn{
+    height: 4rem;
+    width: 15rem;
+    background-color: var(--buttonbg-color);
+    border: .1rem solid var(--black);
+    border-radius: 1rem;
+    color: var(--white);
+    color: var(--white);
+    color: var(--white);
+}
+/* ----------------------
+    reusesable code  End
+----------------------- */
+body{
+    background-color: var(--main-bg);
+}
+
+/* ----------------------
+    Header Codes
+----------------------- */
+.navbar-toggler{
+    margin-right: 5rem;
+}
+.navbar-brand{
+    margin-left: 5rem;
+}
+.header-section{
+background-color: var(--main-bg
+);
+}
+.navbar-brand{
+font-size: 1.5rem;}
+.nav-item{
+    margin-right: 2rem;
+}
+.nav-link{
+    font-size: 1.5rem;
+}
+/* ----------------------
+    Header Code End
+----------------------- */
+/* ----------------------
+    Home section Codes
+----------------------- */
+.home-section{
+   
+}
+
+.home-content-s{
+    height: 64.3rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+}
+.my-img {
+    height: 22rem;
+    border-radius: 64% 36% 70% 30% / 46% 48% 52% 54% ;
+    position: relative;
+transition: 1s;
+    animation: my-pic-ani 5s infinite linear;
+}
+
+@keyframes my-pic-ani {
+    0% {
+        border-radius: 64% 36% 70% 30% / 46% 48% 52% 54% ;
+    }
+    50% {
+        border-radius: 37% 63% 47% 53% / 60% 30% 70% 40% ;
+    }
+    100% {
+        border-radius: 64% 36% 70% 30% / 46% 48% 52% 54% ;
+    }
+}
+.pic-div-c{
+    display: flex;
+    justify-content: center;
+     align-items: center;
+}
+.home-c-text{
+    
+}
+.home-c-text h1{
+    font-size: 3.5rem;
+}
+.home-c-text p{
+    font-size: 1.5rem;
+}

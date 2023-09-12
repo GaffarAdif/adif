@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+      box-sizing: border-box;
+}
+
+/* ----------------------
+    reusesable code 
+----------------------- */
+html{
+    font-size: 10px;
+}
+
+:root{
+    --main-bg:#FFFFFF;
+    --buttonbg-color:#FF6464;
+    --ah-bg-color:#EDF7FA;
+    --text-color:#21243D;
+    --white:#FFFFFF;
+    --black:#000000;
+}
+
+@media (max-width: 768px) {
+    .navbar-collapse {
+      text-align: center;
+    }
+    .navbar-nav {
+      display: inline-block;
+    }
+    .navbar-toggler {
+      float: none;
+    }
+    .navbar-toggler-icon {
+      margin: 0 auto;
+    }
+  }
+  
