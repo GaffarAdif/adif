@@ -28,7 +28,6 @@ h1,h2,h3,p{color: var(--text-color);}
     width: 15rem;
     background-color: var(--buttonbg-color);
     border: .1rem solid var(--black);
-    border-radius: 1rem;
     color: var(--white);
     color: var(--white);
     color: var(--white);
@@ -67,12 +66,13 @@ font-size: 1.5rem;}
 /* ----------------------
     Home section Codes
 ----------------------- */
+
+
 .home-section{
    
 }
-
 .home-content-s{
-    height: 64.3rem;
+    height: 45rem;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -85,7 +85,6 @@ font-size: 1.5rem;}
 transition: 1s;
     animation: my-pic-ani 5s infinite linear;
 }
-
 @keyframes my-pic-ani {
     0% {
         border-radius: 64% 36% 70% 30% / 46% 48% 52% 54% ;
@@ -111,3 +110,54 @@ transition: 1s;
 .home-c-text p{
     font-size: 1.5rem;
 }
+/* ----------------------
+    Home section down Codes
+----------------------- */
+.home-main-sec{
+    height: 35rem;
+    background-color: var(--ah-bg-color);
+}
+
+
+.h-d-hd-text{
+font-size: 2rem;}
+.h-d-mini{
+    height: 4rem;
+    width: 25rem;
+}
+
+.h-d-p-text{
+    font-size: 1.2rem;
+    padding: .2rem;
+}
+.h-d-p-text2{
+    font-size: 1.2rem;
+    padding: .2rem;
+}
+.line{
+    margin-top: .2rem;
+    height: 2rem;
+    width: .2rem;
+    border-right: #000000 solid .3px;
+}
+
+.h-d-p-text-p{
+    font-size: 1.7rem;
+    padding: .2rem;
+}
+
+.home-d-main-div{
+    height: 30rem;
+    width: 45rem;
+    background-color: var(--white);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.home-d-main-div h3{
+  font-size: 2rem;
+}
+
+
+
+
+
